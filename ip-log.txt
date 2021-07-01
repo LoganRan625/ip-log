@@ -105,6 +105,8 @@ def MainLoop():
 
                         if i not in active_IPs:
                             switch = False
+                          
+#---------------------------------------------------------------------------
 
             if i in known_devices:
                 check_status(i, ip_address, active_IPs, IP, date)
